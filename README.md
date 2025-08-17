@@ -1,12 +1,10 @@
-# React + Vite
+1. How I approached the assignment
+I started by planning the structure of the website using React and Vite. I created separate components like Header, Hero, Feature, Team, CTA, and Footer to keep everything organized. I added basic styling and made sure each section looked clean and was easy to understand. After building the layout, I tested the app locally and then pushed the code to GitHub to make it public and professional.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. What issues I faced while building the project
+While working on the project, I faced a few small problems:
+- The images didn’t show up at first because they weren’t placed in the correct folder.
+- The layout wasn’t centered properly, so I had to adjust the CSS styles.
+- Git showed a warning about author identity, which I fixed by setting my name and email.
+- Some line ending warnings appeared, but they didn’t affect the project.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
